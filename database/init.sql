@@ -4,7 +4,7 @@ BEGIN
         CREATE DATABASE chess_game;
     END IF;
 END
-$$;
+$$ LANGUAGE plpgsql;
 
 DO $$
 BEGIN
